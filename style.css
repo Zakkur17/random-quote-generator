@@ -1,0 +1,100 @@
+/* Basic Reset & General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef; /* Light grey background */
+    color: #343a40; /* Dark grey text */
+    line-height: 1.7;
+    display: flex;
+    flex-direction: column; /* Stack app-container and footer */
+    align-items: center;
+    justify-content: center; /* Center the main content vertically */
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.app-container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 600px; /* Max width for the quote box */
+}
+
+header h1 {
+    color: #007bff; /* Blue for the title */
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+/* Quote Display Area */
+.quote-display-area {
+    background-color: #f8f9fa; /* Slightly off-white for the quote area */
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    min-height: 100px; /* Ensure some space even before a quote is loaded */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quote-text {
+    font-size: 1.4em; /* Larger font for the quote */
+    font-style: italic;
+    color: #495057;
+    margin-bottom: 15px;
+}
+
+#quote-author {
+    font-size: 1em;
+    color: #6c757d; /* Lighter grey for the author */
+    text-align: right;
+}
+
+#quote-author::before { /* Add a dash before the author name */
+    content: "— ";
+}
+
+/* Button Style */
+#new-quote-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+#new-quote-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+#new-quote-button:active {
+    transform: scale(0.98); /* Slight press effect */
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #6c757d;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
