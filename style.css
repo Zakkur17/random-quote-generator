@@ -7,13 +7,13 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #e9ecef; /* Light grey background */
-    color: #343a40; /* Dark grey text */
+    background-color: #e9ecef;
+    color: #343a40;
     line-height: 1.7;
     display: flex;
     flex-direction: column; /* Stack app-container and footer */
     align-items: center;
-    justify-content: center; /* Center the main content vertically */
+    justify-content: center; 
     min-height: 100vh;
     padding: 20px;
 }
@@ -29,14 +29,14 @@ body {
 }
 
 header h1 {
-    color: #007bff; /* Blue for the title */
+    color: #007bff;
     margin-bottom: 25px;
     font-size: 2em;
 }
 
 /* Quote Display Area */
 .quote-display-area {
-    background-color: #f8f9fa; /* Slightly off-white for the quote area */
+    background-color: #f8f9fa; 
     padding: 25px;
     border-radius: 8px;
     margin-bottom: 30px;
@@ -47,7 +47,7 @@ header h1 {
 }
 
 #quote-text {
-    font-size: 1.4em; /* Larger font for the quote */
+    font-size: 1.4em;
     font-style: italic;
     color: #495057;
     margin-bottom: 15px;
@@ -55,7 +55,7 @@ header h1 {
 
 #quote-author {
     font-size: 1em;
-    color: #6c757d; /* Lighter grey for the author */
+    color: #6c757d;
     text-align: right;
 }
 
@@ -76,7 +76,7 @@ header h1 {
 }
 
 #new-quote-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
 }
 
 #new-quote-button:active {
