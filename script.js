@@ -4,7 +4,7 @@ const quoteAuthorElement = document.getElementById("quote-author");
 const newQuoteButton = document.getElementById("new-quote-button");
 
 // API URL
-const QUOTE_API_URL = 'http://dummyjson.com/quotes/random';
+const QUOTE_API_URL = 'https://dummyjson.com/quotes/random';
 
 // Initial check (optional, can be removed)
 console.log(quoteTextElement, quoteAuthorElement, newQuoteButton);
